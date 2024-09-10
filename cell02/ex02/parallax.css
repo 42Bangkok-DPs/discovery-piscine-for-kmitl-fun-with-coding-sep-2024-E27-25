@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 {
+    background-image: url('https://assets-prd.ignimgs.com/2022/12/29/bocchi-blogroll-1672352846343.jpg');
+}
+
+.bg2 {
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Bocchi-The-Rock!-Episode-4-Hitori-Gotou-Loses-Her-Mind-Crunchyroll.jpg');
+}
+
+.center-message {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.content {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
