@@ -1,0 +1,36 @@
+span{
+    display: none;
+    background-color: rgb(243, 224, 255);
+    padding: 20px 180px 20px 8px;
+    font-weight: bold;
+}
+.Dropdown{
+    margin-left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    width:124px;
+}
+.Dropdown-content{
+    margin-left: 0;
+    margin-top: 0;
+    padding-right: 180px;
+}
+span:hover{
+    background-color: rgb(192, 115, 255);
+    text-decoration: underline;
+    color: rgb(50, 4, 65);
+}
+.Dropdown button{
+    display: block;
+    background-color: rgb(181, 70, 255);
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px 0px 0px;
+    cursor: pointer;
+}
+.Dropdown:hover span{
+    display:block;
+}
